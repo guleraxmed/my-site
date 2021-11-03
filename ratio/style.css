@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#proheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#proheader h1, .col-9 h1 ,.protop h1{
+    font-size: 21px;
+    font-weight: 400;
+}
+#prosort{
+    border: 1px solid rgb(218, 214, 214);
+    outline: none;
+    padding: 15px;
+    color: gray;
+}
+#prosort:active{
+    background-color: lightgray;
+}
+.proimg{
+    width: 240px;
+    transition: all 0.5s ;
+    
+}
+.proname{
+    padding-top: 15px;
+}
+.proname:hover{
+    color: #d6ab60;
+    cursor: pointer;
+}
+
+
+.proimg:hover{
+    transform: scale(1.2,1.2); 
+    cursor: pointer;
+    overflow: hidden;
+   
+}
+.proi i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #d6ab60;
+}
+.proi a:hover{
+    color: #d6ab60;
+    cursor: pointer;
+}
+.proi a{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 320px)  {
+    #bg{
+        background-size:300px
+    }
+}
+
+
+
+
